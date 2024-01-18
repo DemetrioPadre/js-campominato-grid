@@ -1,13 +1,27 @@
-.header-container {
+#header {
     width: 100%;
     height: 100px;
     background-color: white;
     display: flex;
     justify-content: space-between;
+    vertical-align: center;
 }
 
-#box-game {
+#containerGame {
     background-color: aqua;
     width: 100%;
     height: 100vh;
+}
+
+#gameBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
 }
