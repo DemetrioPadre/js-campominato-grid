@@ -10,19 +10,28 @@
 
 #containerGame {
     background-color: aqua;
-    width: 100%;
-    height: 100vh;
-}
-
-#gameBox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 100px;
+    align-items: center;
+}
+
+#gameBox {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+
 }
 
 .box {
-    height: 50px;
-    width: 50px;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
 }
